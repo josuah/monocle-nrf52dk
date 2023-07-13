@@ -8,7 +8,7 @@ to make it run on the
 ```
 cd monocle-micropython
 git clone https://github.com/josuah/monocle-nrf52dk
-sed -i s/monocle-core/monocle-nrf52dk/g Makefile
+sed -i.s s/monocle-core/monocle-nrf52dk/g Makefile
 cp modules/_mountramfs.py modules/_mountfs.py
 make flash
 ```
